@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+header, footer{
+    background-color: #6c00a6;
+    color: white;
+    height: 60px;
+}
+
+main{
+    padding: 40px;
+    min-height: 100vh;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: rgb(178, 34, 168);
+}
+
+nav > ul >li{
+    width: 100%;
+    height: 100%;
+
+}
+
+.active{
+    background: rgb(255, 0, 183);
+}
+
+nav > ul > li > a{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+
+footer > p{
+    width:60vw;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+h1{
+    font-size: 250%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+section{
+    width: 60vw;
+    padding: 40px;
+}
+
+article{
+    width: 100%;
+    margin: 0 auto; 
+    padding: 40px;
+}
+
+.box{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.box figure{
+    display: flex;
+
+}
+
+.box figure img{
+    width: 30%;
+    height: auto;
+    margin: 0 10px;
+}
+
+p:last-of-type{
+    margin-bottom: 0;
+}
+
+figcaption{
+    font-size: 80%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.top{
+    width: 60px;
+    height: 60px;
+    background: rgb(22, 21, 21);
+    border: none;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    bottom: 75px;
+    right: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
