@@ -16,6 +16,10 @@ body{
 
 }
 
+img{
+    width: 105%;
+}
+
 header, footer{
     background-color: #6c00a6;
     color: white;
