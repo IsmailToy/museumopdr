@@ -24,6 +24,8 @@ header, footer{
     background-color: #6c00a6;
     color: white;
     height: 60px;
+    
+    
 }
 
 main{
@@ -71,9 +73,10 @@ nav > ul > li > a{
 
 
 footer > p{
-    width:60vw;
+    width:100vw;
     margin: 0 auto;
     padding-left: 40px;
+    
 }
 
 h1{
@@ -144,4 +147,7 @@ figcaption{
 footer{
     display: flex;
     align-items: center;
+    
 }
+
+
